@@ -1,0 +1,8 @@
+prefix=/home/leander/catkin_ws/install
+
+Name: android
+Description: Description of android
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/leander/catkin_ws/install/lib 
+Requires: 

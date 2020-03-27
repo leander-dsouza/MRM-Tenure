@@ -1,0 +1,8 @@
+prefix=/home/leander/catkin_ws/install
+
+Name: realsense2_description
+Description: Description of realsense2_description
+Version: 2.2.8
+Cflags: 
+Libs: -L/home/leander/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/leander/catkin_ws/install
+
+Name: realsense_gazebo_plugin
+Description: Description of realsense_gazebo_plugin
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/leander/catkin_ws/install/lib 
+Requires: roscpp gazebo_ros

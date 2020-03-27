@@ -1,0 +1,13 @@
+#include<avr/io.h>
+#define F_CPU 1000000UL
+#include<util/delay.h>
+
+
+int main(void)
+{    DDRB|= (1<<PINB3);//output
+    /* Replace with your application code */
+    while (1) 
+    { PORTB ^=(1 <<PINB3);//toggle
+		_delay_ms(100); 
+    }
+}
